@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+
+/**
+ *Header
+  - Logo
+   -Nav Items : Home, About, Cart
+  *Body
+   -Input Search Box
+   -Search Button
+  *Restaurant Container
+   -* Restaurant Card
+    - Image
+     - Name of Res, Star Rating, cuisine, delivery time etc.
+  * Footer
+    - Copyright
+    - Links
+    - Address
+    - Contact
+
+ *
+ */
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div className="font-bold">hello world</div>;
 }
 
 export default App;
